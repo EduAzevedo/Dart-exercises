@@ -8,12 +8,14 @@ void main() {
   exibirDados("Eduardo", idade: 19); //Apresenta valor padrao para altura
 
   exibirDados("Eduardo", idade: 19, altura: 1.75); //Altura definida
-  
 }
 
 //Para definir parametro como opcional
 // deve-se coloca-los entre chaves -> {} <-
 //as interrogações -> ? <- permitem que o parametro possa ser "nulo"
+
+//Parametros opcionais devem ser colocados no final, primeiro
+//vem os obrigatorios!
 void exibirDados(String nome, {int? idade, double? altura}) {
   //O operador -> ?? <- verifica se o valor é nulo
   //assim podemos deficnir um valor padrão ao invés de apresentar
