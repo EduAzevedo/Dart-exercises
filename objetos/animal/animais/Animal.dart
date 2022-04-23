@@ -3,15 +3,15 @@ class Animal {
   double _tamanho = 0.0;
   double _peso = 0.0;
 
-  void Dormir() {
+  void dormir() {
     print("Dormindo");
   }
 
-  void Correr() {
+  void correr() {
     print("Correndo");
   }
 
-  void Comer() {
+  void comer() {
     print("Comendo");
   }
 
